@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authorization Form</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <form class="form" action="">
+        <span class="span">Авторизоваться</span>
+        <h1 class="form__title">Регистрация</h1>
+        <span class="input__title" id="spanmail">Email</span>
+        <input
+          type="email"
+          id="email"
+          class="form__input"
+          name="email"
+          placeholder="Введите email"
+        />
+        <p id="noEmailError">Поле обязательно для заполнения</p>
+        <p id="invalidEmailError">Email невалидный</p>
+        <span class="input__title" id="spanpass">Пароль</span>
+        <input
+          type="password"
+          id="password"
+          class="form__input"
+          name="password"
+          placeholder="Введите пароль"
+        />
+        <p id="noPasswordError">Поле обязательно для заполнения</p>
+        <p id="shortPasswordError">
+          Пароль должен содержать как минимум 8 символов
+        </p>
+        <label class="form__label">
+          <input id="check" type="checkbox" class="form__checkbox" checked />
+          <span id="custcheck" class="form__custom-checkbox"></span>
+          Я согласен с
+          <a class="link" href="#">Правилами пользования приложений</a>
+        </label>
+        <p id="checkboxError">
+          Для продолжения регистрации необходимо согласиться с требованиями
+        </p>
+        <button id="submit" class="form__submit">Регистрация</button>
+      </form>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
