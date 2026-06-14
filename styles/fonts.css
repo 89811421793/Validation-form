@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/RobotoMono-Medium.eot');
+    src: url('../assets/RobotoMono-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/RobotoMono-Medium.woff') format('woff'),
+        url('../assets/RobotoMono-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto-Thin.eot');
+    src: url('../assets/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../assets/Roboto-Thin.woff') format('woff'),
+        url('../assets/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
